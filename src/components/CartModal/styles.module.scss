@@ -1,0 +1,65 @@
+.backgroundModal{
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    inset:0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.3);
+}
+
+.modalBox{
+    position: relative;
+    width: 100%;
+    max-width: clamp(24.813rem, 7.768vw + 23.259rem, 30.25rem);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.modalHeader{
+    height: 57px;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color:white;
+    border-radius: 5px 5px 0 0;
+
+    &>button{
+        background-color: transparent;
+        border:none;
+        color:white;
+    }
+}
+
+.white{
+    color:white;
+}
+
+.grey{
+    color:var(--grey-300);
+}
+
+.cartFooter{
+    padding-block: 1rem;
+    border-top: 2px solid var(--grey-100);
+    width:95%;
+    margin:0 auto;
+}
+
+.cartTotal{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.buttonRemoveAll{
+    background-color: #BDBDBDBD;
+    color:white;
+    border: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+}

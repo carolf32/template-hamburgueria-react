@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height: 76px;
+    align-items: center;
+    padding-inline:clamp(1.25rem, 7.512vw - 0.511rem, 6.25rem);
+    background-color: var(--grey-0);
+
+    & > img{
+        width: 150px;
+    }
+}
+
+.cartButton{
+    background-color: transparent;
+    border:none;
+    color:#BDBDBDBD;
+    position: relative;
+
+    &>span{
+        position: absolute;
+        top:-12px;
+        right:-3px;
+        background-color: var(--color-primary);
+        padding: 2px 5px;
+        color:white;
+        border-radius: 7px;
+        font-weight: bold;
+        margin:0 auto;
+    }
+}
+

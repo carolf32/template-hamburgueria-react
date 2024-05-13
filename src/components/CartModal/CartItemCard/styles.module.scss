@@ -1,0 +1,33 @@
+.cartContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    align-items: center;
+
+    &>button{
+        background-color: transparent;
+        border: none;
+        color:#BDBDBDBD;
+    }
+}
+
+.cartLeft{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+
+    
+}
+
+.cartImg{
+    width: 80px;
+    height: 80px;
+    background-color: var(--grey-100);
+    border-radius: 5px;
+}
+
+.green{
+    color:var(--color-primary);
+    padding-top:0.7rem;
+}
+
